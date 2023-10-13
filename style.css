@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .header {
     
@@ -39,9 +42,9 @@ body {
 
 .para1 {
     font-size: 48px;
-    font-weight: #f9faf8;
+    font-weight: bolder;
     font-style: extra-bold;
-    color: white;
+    color: #f9faf8;
     margin: 20px;
     margin-left: 0;
     
@@ -154,21 +157,60 @@ h3 {
     align-items: center;
     flex-direction: column;
 }
-.t1 {
-    font-size: 36px;
-    font-weight: 200px;
+.t1 p {
+    font-size: 40px;
+    font-style: italic;
+   font-weight:lighter;
    
-    font-style:italic ;
+  
     justify-content: center;
     align-items: center;
 }
 .t2 {
     display: flex;
     float: right;
-    position: relative;
+    padding-left: 900px;
+    
+    
+    
     
 }
 
 .btn {
     border: none;
+    background: none;
+}
+
+.header4 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.box {
+    background: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1000px;
+    gap: 200px;
+    border-radius: 10px;
+}
+.btn1 {
+    width: 100px ;
+    height: 30px ;
+    background: #3882f6;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid white;
+    
 }
